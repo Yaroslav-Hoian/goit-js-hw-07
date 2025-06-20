@@ -34,7 +34,6 @@ const arr = images.forEach(el => {
   addItem.src = el.url;
   addItem.alt = el.alt;
   addItem.width = 360;
-  // addItem.height = 300;
 
   list.append(item);
   item.append(addItem);

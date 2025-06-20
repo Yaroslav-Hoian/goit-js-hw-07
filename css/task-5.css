@@ -1,0 +1,18 @@
+.widget {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 88px;
+    max-width: 345px;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+button {
+    max-width: 148px;
+}
