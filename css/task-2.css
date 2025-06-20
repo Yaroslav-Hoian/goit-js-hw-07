@@ -3,5 +3,6 @@
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    justify-content: center;
+    margin: 0 auto;
+    max-width: 1128px;
 }
