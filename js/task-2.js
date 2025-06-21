@@ -27,16 +27,13 @@ const images = [
 
 const list = document.querySelector("ul.gallery");
 
-const arr = images.forEach(el => {
-  const item = document.createElement("li")
-  const addItem = document.createElement("img");
+const addItem = images
+  .map((el) => `<li><img src="${el.url}" alt="${el.alt}" width="300"></li>`)
+  .join('');
+  console.log(addItem);
+  
 
-  addItem.src = el.url;
-  addItem.alt = el.alt;
-  addItem.width = 360;
+list.insertAdjacentHTML("beforeend", addItem);
 
-  list.append(item);
-  item.append(addItem);
-})
 
 
